@@ -1,0 +1,28 @@
+KALBOS GARSO FONEMU KLASIFIKAVIMAS: MATLAB REZULTATAI
+
+Duomenu: 5404; 0 klase: 3818; 1 klase: 1586.
+Tik train CV parinktos konfiguracijos:
+LR lambda=0.0001: CV BA 0.674595
+kNN k=5 inverse: CV BA 0.844622
+SVM C=10 gamma=1 prior=uniform: CV BA 0.859898
+MLP layers=[32 16] lambda=0.0001: CV BA 0.835552
+
+Testas, slenkstis 0.5:
+LR: BA=0.665286, F1=0.520211, Brier=0.160184, TN=659 FP=104 FN=169 TP=148
+kNN: BA=0.830567, F1=0.764516, Brier=0.091724, TN=697 FP=66 FN=80 TP=237
+SVM_calibrated: BA=0.836464, F1=0.775777, Brier=0.092166, TN=706 FP=57 FN=80 TP=237
+MLP_seed11: BA=0.813095, F1=0.740260, Brier=0.112920, TN=692 FP=71 FN=89 TP=228
+MLP_seed22: BA=0.821781, F1=0.749206, Brier=0.111871, TN=686 FP=77 FN=81 TP=236
+MLP_seed33: BA=0.836365, F1=0.768504, Brier=0.109482, TN=689 FP=74 FN=73 TP=244
+
+Stipresnis baseline pagal CV: kNN.
+Delta BA=0.005898; porinio bootstrap 95% intervalas [-0.018744; 0.029340].
+H1 nepatvirtinta: neivykdytas bent vienas butinas kriterijus.
+Kalibravimo transformacija: sigmoid.
+Sio paleidimo trukme iki suvestines: 22.93 s; modelio failas: 47089 baitu.
+Vieno ir 1000 irasu prognozes: 0.000236564 s ir 0.00174538 s.
+MLP pateiktas trimis seklomis; ju vidurkiai ir sklaida atskiruose CSV.
+Triuksmo tyrimas: noise_summary.csv; abliacijos: ablation_*.csv.
+Dubliuotu pozymiu sutapimai train/cal=2, train/test=3, cal/test=0.
+Kalbetoju ir irasu ID nezinomi; bootstrap neapima paslepto priklausomumo.
+Sintetinis pozymiu triuksmas neatstoja realaus mikrofono triuksmo tyrimo.

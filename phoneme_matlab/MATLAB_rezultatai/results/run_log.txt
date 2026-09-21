@@ -1,0 +1,70 @@
+Data: 5404 rows, class counts 3818/1586, repeated feature rows 9.
+[Warning: Identical feature vectors across train_cal: 2. Interpret test cautiously.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main>duplicateAudit', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m', 236)" style="font-weight:bold">main>duplicateAudit</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m',236,0)">line 236</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m', 44)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m',44,0)">line 44</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_project', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\run_project.m', 5)" style="font-weight:bold">run_project</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\run_project.m',5,0)">line 5</a>)] 
+[Warning: Identical feature vectors across train_test: 3. Interpret test cautiously.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main>duplicateAudit', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m', 236)" style="font-weight:bold">main>duplicateAudit</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m',236,0)">line 236</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m', 44)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\main.m',44,0)">line 44</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_project', 'C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\run_project.m', 5)" style="font-weight:bold">run_project</a> (<a href="matlab: opentoline('C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\run_project.m',5,0)">line 5</a>)] 
+CV 1/41 LR lambda=1 BA=0.50000
+CV 2/41 LR lambda=0.01 BA=0.66659
+CV 3/41 LR lambda=0.0001 BA=0.67460
+CV 4/41 kNN k=21 equal BA=0.80461
+CV 5/41 kNN k=21 inverse BA=0.82865
+CV 6/41 kNN k=11 equal BA=0.80557
+CV 7/41 kNN k=11 inverse BA=0.83491
+CV 8/41 kNN k=5 equal BA=0.82088
+CV 9/41 kNN k=5 inverse BA=0.84462
+CV 10/41 kNN k=3 equal BA=0.82551
+CV 11/41 kNN k=3 inverse BA=0.84120
+CV 12/41 SVM C=0.1 gamma=0.01 prior=empirical BA=0.60895
+CV 13/41 SVM C=0.1 gamma=0.01 prior=uniform BA=0.75735
+CV 14/41 SVM C=0.1 gamma=0.1 prior=empirical BA=0.75348
+CV 15/41 SVM C=0.1 gamma=0.1 prior=uniform BA=0.79635
+CV 16/41 SVM C=0.1 gamma=1 prior=empirical BA=0.75462
+CV 17/41 SVM C=0.1 gamma=1 prior=uniform BA=0.83920
+CV 18/41 SVM C=0.1 gamma=10 prior=empirical BA=0.50525
+CV 19/41 SVM C=0.1 gamma=10 prior=uniform BA=0.80929
+CV 20/41 SVM C=1 gamma=0.01 prior=empirical BA=0.72923
+CV 21/41 SVM C=1 gamma=0.01 prior=uniform BA=0.77750
+CV 22/41 SVM C=1 gamma=0.1 prior=empirical BA=0.79172
+CV 23/41 SVM C=1 gamma=0.1 prior=uniform BA=0.83705
+CV 24/41 SVM C=1 gamma=1 prior=empirical BA=0.82622
+CV 25/41 SVM C=1 gamma=1 prior=uniform BA=0.85631
+CV 26/41 SVM C=1 gamma=10 prior=empirical BA=0.78767
+CV 27/41 SVM C=1 gamma=10 prior=uniform BA=0.81817
+CV 28/41 SVM C=10 gamma=0.01 prior=empirical BA=0.74253
+CV 29/41 SVM C=10 gamma=0.01 prior=uniform BA=0.80072
+CV 30/41 SVM C=10 gamma=0.1 prior=empirical BA=0.81441
+CV 31/41 SVM C=10 gamma=0.1 prior=uniform BA=0.84857
+CV 32/41 SVM C=10 gamma=1 prior=empirical BA=0.85489
+CV 33/41 SVM C=10 gamma=1 prior=uniform BA=0.85990
+CV 34/41 SVM C=10 gamma=10 prior=empirical BA=0.80164
+CV 35/41 SVM C=10 gamma=10 prior=uniform BA=0.80147
+CV 36/41 MLP layers=16 lambda=0.01 BA=0.74191
+CV 37/41 MLP layers=16 lambda=0.0001 BA=0.81374
+CV 38/41 MLP layers=32 lambda=0.01 BA=0.74241
+CV 39/41 MLP layers=32 lambda=0.0001 BA=0.83087
+CV 40/41 MLP layers=[32 16] lambda=0.01 BA=0.75378
+CV 41/41 MLP layers=[32 16] lambda=0.0001 BA=0.83555
+Data: 5404 rows, class counts 3818/1586, repeated feature rows 9.
+RESUME: reused all 41 configurations and original splits; no CV retraining.
+Calibration transform: sigmoid
+Word ataskaita: C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\results\Fonemu_klasifikavimo_ataskaita.docx
+         <strong>Model</strong>          <strong>TN</strong>     <strong>FP</strong>     <strong>FN</strong>     <strong>TP</strong>     <strong>Accuracy</strong>    <strong>Recall0</strong>    <strong>Recall1</strong>    <strong>Precision1</strong>      <strong>BA</strong>         <strong>F1</strong>        <strong>Brier</strong>      <strong>ZeroDenominator</strong>
+    <strong>________________</strong>    <strong>___</strong>    <strong>___</strong>    <strong>___</strong>    <strong>___</strong>    <strong>________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>________</strong>    <strong>_______________</strong>
+
+    "LR"                659    104    169    148    0.74722      0.8637    0.46688      0.5873      0.66529    0.52021     0.16018         false     
+    "kNN"               697     66     80    237    0.86481      0.9135    0.74763     0.78218      0.83057    0.76452    0.091724         false     
+    "SVM_calibrated"    706     57     80    237    0.87315     0.92529    0.74763     0.80612      0.83646    0.77578    0.092166         false     
+    "MLP_seed11"        692     71     89    228    0.85185     0.90695    0.71924     0.76254      0.81309    0.74026     0.11292         false     
+    "MLP_seed22"        686     77     81    236     0.8537     0.89908    0.74448     0.75399      0.82178    0.74921     0.11187         false     
+    "MLP_seed33"        689     74     73    244    0.86389     0.90301    0.76972      0.7673      0.83637     0.7685     0.10948         false     
+
+    <strong>Baseline</strong>     <strong>DeltaBA</strong>      <strong>CI95Low</strong>     <strong>CI95High</strong>    <strong>H1Confirmed</strong>
+    <strong>________</strong>    <strong>_________</strong>    <strong>_________</strong>    <strong>________</strong>    <strong>___________</strong>
+
+     "kNN"      0.0058978    -0.018744    0.02934        false   
+
+Outputs saved in C:\Users\aivar\Downloads\MATLAB_kodas_su_Word_generavimu\phoneme_matlab\results
