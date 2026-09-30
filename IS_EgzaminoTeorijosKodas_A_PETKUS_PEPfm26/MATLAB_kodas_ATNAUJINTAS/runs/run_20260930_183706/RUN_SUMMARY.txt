@@ -1,0 +1,32 @@
+KALBOS GARSO FONEMU KLASIFIKAVIMAS - ATNAUJINTAS EKSPERIMENTAS
+
+Duomenu saltinis: OpenML Phoneme ID 1489.
+Pradiniu irasu: 5404; po vienodu pozymiu vektoriu deduplikavimo: 5395; pasalinta: 9.
+Nutekejimo auditas: train-test identisku pozymiu vektoriu = 0; train-cal = 0; cal-test = 0.
+
+TRAIN CV PARINKTOS KONFIGURACIJOS
+LR lambda=0.0001 | BA 0.675680 | F1 0.535265
+kNN k=3 weight=inverse | BA 0.841857 | F1 0.782431
+SVM C=10 gamma=1 prior=uniform | BA 0.865690 | F1 0.795039
+CS-SVM C=10 gamma=1 FNcost=3 | BA 0.864463 | F1 0.790094
+MLP layers=[32 16] lambda=0.0001 iter=300 | BA 0.835787 | F1 0.769628
+
+GALUTINIS PALYGINIMAS - TIK TESTAVIMO IMTIS
+LR | BA 0.651722 | F1 0.499127 | Recall1 0.453968 | Accuracy 0.734013 | Brier 0.167312 | AUC 0.789363
+kNN | BA 0.818613 | F1 0.746753 | Recall1 0.730159 | Accuracy 0.855422 | Brier 0.104460 | AUC 0.901226
+RBF_SVM | BA 0.842296 | F1 0.760933 | Recall1 0.828571 | Accuracy 0.848007 | Brier 0.101573 | AUC 0.914917
+CS_RBF_SVM | BA 0.848924 | F1 0.767677 | Recall1 0.844444 | Accuracy 0.850788 | Brier 0.102468 | AUC 0.913837
+MLP_ensemble3 | BA 0.822623 | F1 0.749601 | Recall1 0.746032 | Accuracy 0.854495 | Brier 0.105104 | AUC 0.918649
+
+HIPOTEZE
+Atskaitos metodas: kNN; DeltaBA 0.030310; 95% CI [0.007893; 0.054635]; DeltaRecall1 0.114286; patvirtinta=1
+
+KALIBRAVIMO SLENKSCIU DIAGNOSTIKA
+RBF_SVM_calibrated_t0.5 t=0.500 BA=0.825422 F1=0.751975
+RBF_SVM_calibrated_tCal t=0.280 BA=0.850413 F1=0.767475
+CS_RBF_SVM_calibrated_t0.5 t=0.500 BA=0.822804 F1=0.747253
+CS_RBF_SVM_calibrated_tCal t=0.280 BA=0.845832 F1=0.759887
+
+Laikas: 108.94 s; CV: 98.42 s; 1 iraso prognoze 0.000331154 s; 1000 irasu 0.00372288 s.
+
+Hipotezes tekstas: CS-RBF-SVM, parinktas tik train CV, testavimo imtyje turi pasiekti bent 0.02 didesni subalansuota tiksluma uz stipresni atskaitos metoda, porinio bootstrap 95% intervalo apatine riba turi buti > 0, o 1 klases jautrumas (Recall1) neturi buti mazesnis uz atskaitos metodo.

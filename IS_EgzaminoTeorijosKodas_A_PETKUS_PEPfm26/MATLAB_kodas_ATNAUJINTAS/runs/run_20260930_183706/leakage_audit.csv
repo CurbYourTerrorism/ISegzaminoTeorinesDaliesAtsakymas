@@ -1,0 +1,2 @@
+TrainCalIndexOverlap,TrainTestIndexOverlap,CalTestIndexOverlap,TrainCalFeatureOverlap,TrainTestFeatureOverlap,CalTestFeatureOverlap,PreprocessingLearnedFrom,HyperparametersLearnedFrom,CalibrationLearnedFrom,FinalMetricsFrom
+0,0,0,0,0,0,train only; fold-local inside CV,train 5-fold CV only,calibration split only,held-out test only

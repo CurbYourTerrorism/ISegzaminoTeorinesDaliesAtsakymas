@@ -1,0 +1,6 @@
+PROTOKOLAS UZRAKINTAS PRIES TESTA
+Laikas: 30-Sep-2026 18:38:50
+Pagrindinis metodas: CS_SVM
+Hipoteze: CS-RBF-SVM, parinktas tik train CV, testavimo imtyje turi pasiekti bent 0.02 didesni subalansuota tiksluma uz stipresni atskaitos metoda, porinio bootstrap 95% intervalo apatine riba turi buti > 0, o 1 klases jautrumas (Recall1) neturi buti mazesnis uz atskaitos metodo.
+Testavimo imtis nenaudota hiperparametrams, preprocessing ar kalibravimui.
+SVM cal slenkstis: 0.280; CS-SVM cal slenkstis: 0.280

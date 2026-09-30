@@ -1,0 +1,88 @@
+Pradiniai duomenys: 5404 irasu, 5 pozymiai. Klases 0/1: 3818/1586.
+CV   1/ 71 LR lambda=1                                   BA=0.50000 F1=0.00000
+CV   2/ 71 LR lambda=0.01                                BA=0.67012 F1=0.52561
+CV   3/ 71 LR lambda=0.0001                              BA=0.67568 F1=0.53527
+CV   4/ 71 kNN k=21 weight=equal                         BA=0.79932 F1=0.72190
+CV   5/ 71 kNN k=21 weight=inverse                       BA=0.82163 F1=0.75527
+CV   6/ 71 kNN k=11 weight=equal                         BA=0.81367 F1=0.74415
+CV   7/ 71 kNN k=11 weight=inverse                       BA=0.83730 F1=0.77859
+CV   8/ 71 kNN k=5 weight=equal                          BA=0.82240 F1=0.75486
+CV   9/ 71 kNN k=5 weight=inverse                        BA=0.84031 F1=0.78114
+CV  10/ 71 kNN k=3 weight=equal                          BA=0.82829 F1=0.76221
+CV  11/ 71 kNN k=3 weight=inverse                        BA=0.84186 F1=0.78243
+CV  12/ 71 SVM C=0.1 gamma=0.01 prior=empirical          BA=0.59049 F1=0.34286
+CV  13/ 71 SVM C=0.1 gamma=0.01 prior=uniform            BA=0.75098 F1=0.63319
+CV  14/ 71 SVM C=0.1 gamma=0.1 prior=empirical           BA=0.75449 F1=0.65250
+CV  15/ 71 SVM C=0.1 gamma=0.1 prior=uniform             BA=0.78600 F1=0.67814
+CV  16/ 71 SVM C=0.1 gamma=1 prior=empirical             BA=0.75652 F1=0.66422
+CV  17/ 71 SVM C=0.1 gamma=1 prior=uniform               BA=0.83877 F1=0.73355
+CV  18/ 71 SVM C=0.1 gamma=10 prior=empirical            BA=0.50000 F1=0.00000
+CV  19/ 71 SVM C=0.1 gamma=10 prior=uniform              BA=0.84212 F1=0.76650
+CV  20/ 71 SVM C=1 gamma=0.01 prior=empirical            BA=0.72554 F1=0.61264
+CV  21/ 71 SVM C=1 gamma=0.01 prior=uniform              BA=0.76349 F1=0.64968
+CV  22/ 71 SVM C=1 gamma=0.1 prior=empirical             BA=0.78620 F1=0.69498
+CV  23/ 71 SVM C=1 gamma=0.1 prior=uniform               BA=0.83151 F1=0.72782
+CV  24/ 71 SVM C=1 gamma=1 prior=empirical               BA=0.82657 F1=0.76239
+CV  25/ 71 SVM C=1 gamma=1 prior=uniform                 BA=0.85405 F1=0.76586
+CV  26/ 71 SVM C=1 gamma=10 prior=empirical              BA=0.77801 F1=0.70259
+CV  27/ 71 SVM C=1 gamma=10 prior=uniform                BA=0.81781 F1=0.75055
+CV  28/ 71 SVM C=10 gamma=0.01 prior=empirical           BA=0.74028 F1=0.63379
+CV  29/ 71 SVM C=10 gamma=0.01 prior=uniform             BA=0.79368 F1=0.68308
+CV  30/ 71 SVM C=10 gamma=0.1 prior=empirical            BA=0.82007 F1=0.74591
+CV  31/ 71 SVM C=10 gamma=0.1 prior=uniform              BA=0.83718 F1=0.73442
+CV  32/ 71 SVM C=10 gamma=1 prior=empirical              BA=0.84610 F1=0.78764
+CV  33/ 71 SVM C=10 gamma=1 prior=uniform                BA=0.86569 F1=0.79504
+CV  34/ 71 SVM C=10 gamma=10 prior=empirical             BA=0.79491 F1=0.72364
+CV  35/ 71 SVM C=10 gamma=10 prior=uniform               BA=0.79270 F1=0.71889
+CV  36/ 71 CS-SVM C=1 gamma=0.1 FNcost=1.25              BA=0.79878 F1=0.70411
+CV  37/ 71 CS-SVM C=1 gamma=0.1 FNcost=1.5               BA=0.81355 F1=0.71547
+CV  38/ 71 CS-SVM C=1 gamma=0.1 FNcost=2                 BA=0.82829 F1=0.72801
+CV  39/ 71 CS-SVM C=1 gamma=0.1 FNcost=3                 BA=0.83213 F1=0.72438
+CV  40/ 71 CS-SVM C=1 gamma=1 FNcost=1.25                BA=0.84089 F1=0.77323
+CV  41/ 71 CS-SVM C=1 gamma=1 FNcost=1.5                 BA=0.85364 F1=0.78338
+CV  42/ 71 CS-SVM C=1 gamma=1 FNcost=2                   BA=0.85238 F1=0.77190
+CV  43/ 71 CS-SVM C=1 gamma=1 FNcost=3                   BA=0.84693 F1=0.74950
+CV  44/ 71 CS-SVM C=1 gamma=10 FNcost=1.25               BA=0.79660 F1=0.72792
+CV  45/ 71 CS-SVM C=1 gamma=10 FNcost=1.5                BA=0.80250 F1=0.73398
+CV  46/ 71 CS-SVM C=1 gamma=10 FNcost=2                  BA=0.80892 F1=0.74059
+CV  47/ 71 CS-SVM C=1 gamma=10 FNcost=3                  BA=0.82613 F1=0.75876
+CV  48/ 71 CS-SVM C=10 gamma=0.1 FNcost=1.25             BA=0.82766 F1=0.74586
+CV  49/ 71 CS-SVM C=10 gamma=0.1 FNcost=1.5              BA=0.83358 F1=0.74426
+CV  50/ 71 CS-SVM C=10 gamma=0.1 FNcost=2                BA=0.83615 F1=0.73811
+CV  51/ 71 CS-SVM C=10 gamma=0.1 FNcost=3                BA=0.83452 F1=0.72877
+CV  52/ 71 CS-SVM C=10 gamma=1 FNcost=1.25               BA=0.85641 F1=0.79650
+CV  53/ 71 CS-SVM C=10 gamma=1 FNcost=1.5                BA=0.85867 F1=0.79518
+CV  54/ 71 CS-SVM C=10 gamma=1 FNcost=2                  BA=0.86340 F1=0.79548
+CV  55/ 71 CS-SVM C=10 gamma=1 FNcost=3                  BA=0.86446 F1=0.79009
+CV  56/ 71 CS-SVM C=10 gamma=10 FNcost=1.25              BA=0.79457 F1=0.72269
+CV  57/ 71 CS-SVM C=10 gamma=10 FNcost=1.5               BA=0.79401 F1=0.72135
+CV  58/ 71 CS-SVM C=10 gamma=10 FNcost=2                 BA=0.79270 F1=0.71888
+CV  59/ 71 CS-SVM C=10 gamma=10 FNcost=3                 BA=0.79310 F1=0.71899
+CV  60/ 71 MLP layers=16 lambda=0.01 iter=300            BA=0.73999 F1=0.63439
+CV  61/ 71 MLP layers=16 lambda=0.01 iter=1000           BA=0.73981 F1=0.63417
+CV  62/ 71 MLP layers=16 lambda=0.0001 iter=300          BA=0.81941 F1=0.74578
+CV  63/ 71 MLP layers=16 lambda=0.0001 iter=1000         BA=0.81934 F1=0.74564
+CV  64/ 71 MLP layers=32 lambda=0.01 iter=300            BA=0.73932 F1=0.63340
+CV  65/ 71 MLP layers=32 lambda=0.01 iter=1000           BA=0.73929 F1=0.63338
+CV  66/ 71 MLP layers=32 lambda=0.0001 iter=300          BA=0.83318 F1=0.76633
+CV  67/ 71 MLP layers=32 lambda=0.0001 iter=1000         BA=0.83207 F1=0.76500
+CV  68/ 71 MLP layers=[32 16] lambda=0.01 iter=300       BA=0.75529 F1=0.65615
+CV  69/ 71 MLP layers=[32 16] lambda=0.01 iter=1000      BA=0.75474 F1=0.65548
+CV  70/ 71 MLP layers=[32 16] lambda=0.0001 iter=300     BA=0.83579 F1=0.76963
+CV  71/ 71 MLP layers=[32 16] lambda=0.0001 iter=1000    BA=0.83293 F1=0.76396
+
+Eksperimentas baigtas. Galutiniai testavimo rezultatai: C:\Users\aivar\Downloads\IS_Fonemu_klasifikavimas_ATNAUJINTAS_PAKETAS\IS_koreguotas_galutinis\MATLAB_kodas_ATNAUJINTAS\runs\run_20260930_183706\test_classification_metrics.csv
+         <strong>Model</strong>         <strong>TN</strong>     <strong>FP</strong>     <strong>FN</strong>     <strong>TP</strong>     <strong>Accuracy</strong>    <strong>Recall0</strong>    <strong>Recall1</strong>    <strong>Precision1</strong>      <strong>BA</strong>         <strong>F1</strong>   
+    <strong>_______________</strong>    <strong>___</strong>    <strong>___</strong>    <strong>___</strong>    <strong>___</strong>    <strong>________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>__________</strong>    <strong>_______</strong>    <strong>_______</strong>
+
+    "LR"               649    115    172    143    0.73401     0.84948    0.45397     0.55426      0.65172    0.49913
+    "kNN"              693     71     85    230    0.85542     0.90707    0.73016     0.76412      0.81861    0.74675
+    "RBF_SVM"          654    110     54    261    0.84801     0.85602    0.82857      0.7035       0.8423    0.76093
+    "CS_RBF_SVM"       652    112     49    266    0.85079      0.8534    0.84444      0.7037      0.84892    0.76768
+    "MLP_ensemble3"    687     77     80    235    0.85449     0.89921    0.74603     0.75321      0.82262     0.7496
+
+    <strong>Baseline</strong>    <strong>DeltaBA</strong>     <strong>CI95Low</strong>     <strong>CI95High</strong>    <strong>DeltaRecall1</strong>    <strong>H1Confirmed</strong>
+    <strong>________</strong>    <strong>_______</strong>    <strong>_________</strong>    <strong>________</strong>    <strong>____________</strong>    <strong>___________</strong>
+
+     "kNN"      0.03031    0.0078929    0.054635      0.11429          true    
+
